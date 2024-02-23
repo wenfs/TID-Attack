@@ -1,0 +1,7 @@
+echo "# TID-Attack" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/wenfs/TID-Attack.git
+git push -u origin master
